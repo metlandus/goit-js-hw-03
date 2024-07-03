@@ -1,4 +1,4 @@
-function slugify(title) {  
+function slugify(title) {
     let titleLowerCase = title.toLowerCase();
     titleFinish = titleLowerCase.split(" ").join("-");
     return titleFinish;
